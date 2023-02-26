@@ -1,0 +1,82 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <link rel="stylesheet" href="check.css">
+        <title>
+           Employee Survey
+        </title>
+    </head>
+    <body class="body">
+      
+       <fieldset class="head">
+
+        <legend class="form"><h1>Employee Intrests Survey Form</h1></legend>
+        <br>
+
+          <form action="submit.html" method="Post" >
+            
+            <section>
+              <lable for="name">Enter Your Name:</lable>
+              <input id="name" type="text" maxlength="15" required name="name" pattern="[a-zA-Z]{}" >
+            </section>
+            <br><br>
+
+            <section>
+              <lable for="department">Enter Your departmemnt:</lable>
+              <input id="department" type="text" maxlength="15" required name="department" pattern="[a-zA-Z]{}">
+            </section>
+            <br><br>
+
+            <section>
+              <lable for="about">Tell us little about yourself:</lable>
+              <textarea id="about" rows="4" cols="40" required name="about" ></textarea>
+            </section>
+            <br><br>
+
+            <section>
+                <span>Do you exercise at home:</span>
+                <input id="yes" type="radio" name="exercise" value="yes">
+                <lable for="yes">Yes</lable>
+                <input id="no" type="radio" name="exercise" value="no" checked>
+                <lable for="no">No</lable>
+            </section> 
+            <br><br>
+
+            <section>
+              <span>How do you like to read about your favourite topics:</span>
+              <br> <br>
+              <input type="checkbox" id="books" name="books">
+              <lable for="books">Books</lable>
+              
+              <input type="checkbox" id="resources" name="resources">
+              <lable for="resoures">Online resources</lable>
+              
+              <input type="checkbox" id="phone" name="phone">
+              <lable for="phone">Phone apps</lable>
+              
+              <input type="checkbox" id="magzines" name="magzines">
+              <lable for="magazine">Magazines</lable>
+            </section>
+            <br><br>
+
+            <section>
+              <lable for="like">What genre of movies do you like ?</lable>
+              <select id="like" name="like">
+                <option value="comedy">comedy</option>
+                <option value="drama">drama</option>
+                <option value="romantic">romantic</option>
+              </select>
+            </section>
+            <br><br>
+
+            <section>
+              <input type="submit" value="Submit form">
+            </section> 
+
+          </form>
+        </fieldset>
+      
+     
+
+    </body>
+</html>

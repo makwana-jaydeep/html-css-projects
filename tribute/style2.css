@@ -1,0 +1,64 @@
+body {
+  margin:20px 40px;
+  background-color: aquamarine;
+  
+}
+#img {
+   display:inline-block;
+   width:8cm;
+   height:8cm;
+   position: relative;
+   right:2cm;
+   border:5px solid aqua;
+ 
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:40px ;
+    display: inline-block;
+    margin-left:10cm;
+    text-shadow: aliceblue;
+    letter-spacing: 3px;
+    text-shadow:2px 4px 4px aliceblue;
+    position:relative;
+    bottom: 5cm
+
+}
+h3{
+  display:inline-block;
+  position: relative;
+  bottom:2cm;
+  right:7cm;
+}
+h2{
+  font-size: xx-large;
+   font-weight: bold;
+   color:aliceblue;
+   text-shadow:black;
+   text-align: center;
+   letter-spacing: 2px;
+   text-shadow: 4px 2px 3px black;
+}
+.about{
+  font-weight: bold;
+  background-color: rgb(124, 203, 193);
+  box-shadow: yellowgreen;
+  padding: .5cm 0.4cm 1cm 0cm;
+  margin-left: 2.5cm  ;
+  margin-right: 2.5cm;
+  box-shadow: 4px 4px 10px rgb(204, 255, 103);
+}
+li{
+  margin: 25px;
+  letter-spacing: .6px;
+  font-weight: bold;
+}
+h4{
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+h5{
+  text-align: center;
+}

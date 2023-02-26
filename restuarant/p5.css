@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: "Ubuntu Mono",monospace;
+}
+header >h2,article>h3{
+    color: red;
+    font-size: 35px;
+    margin-top:3px;
+    margin-bottom: 0;
+}
+header >h3{
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+#logo{
+    height: 45px;
+    width: 45px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+li{
+    list-style: none;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+li:hover{
+    border-radius: 7px;
+    background-color: red;
+}
+nav{
+    background: gray;
+    border:2px solid black;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+section{
+    height:26.4em;
+    overflow: hidden;
+    text-align: left;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 80px;
+    border-left: 2px solid black;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    border-top-left-radius: 15px;
+}
+section::before{
+    content: "";
+    position: absolute;
+    height: 26.4em;
+    width:100%;
+    background: url("./res1.jpg") no-repeat center/cover;
+    z-index:-1;
+    filter: blur(2px);
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 15px;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 45px;
+    padding-top: 35px;
+    margin-top: 0;
+    text-align: center;
+}
+h4{
+    margin-left: 45.8%;
+    width:max-content;
+    background-color: yellow;
+    color:black;
+    font-size: 23px;
+    padding: 0;
+    border-radius: 9px;
+}
+h4:hover{
+    border: 2px solid white;
+    background-color: red;
+}
+.deco{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    column-gap: 3em;
+    flex-wrap: nowrap;
+}
+.price{
+    background: url("./res3.jpg") no-repeat center center/cover;
+}
+.special{
+    background: url("./res2.jpeg") no-repeat center center/cover;
+}
+.special,.price{
+    height:180px;
+    width:420px;
+    border-radius: 60px;
+    box-shadow:0 0 20px 20px black;
+}
+.get{
+    display: block;
+    position: relative;
+    top:68%;
+    right:6%;
+}
+.num1{
+    background: url("./res4.webp") no-repeat center center/cover;
+}
+.num2{
+    background: url("./res5.jpeg") no-repeat center center/cover;
+}
+.num3{
+    background: url("./res6.jpg") no-repeat center center/cover;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    column-gap: 1em;
+}
+article{
+    margin-top: 20px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border: 1px solid burlywood;
+}
+.num1,.num2,.num3{
+    height: 280px;
+    width:32%;
+    border-radius: 20px;
+    border: 1.5px solid black;
+    margin-top:15px;
+}
+.food{
+    display: block;
+    position: relative;
+    top:9.67em;
+    right:1.5em;
+}

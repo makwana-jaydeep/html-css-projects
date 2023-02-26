@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Semantic html</title>
+      <style>
+        body{
+          margin:0;
+          padding:0;
+          display:grid;
+          grid-template-areas: 'h h h h h h'
+          's s s s as as'
+          'a a a a as as'
+          'f f f f f f ';
+          grid-template-rows: 185px 185px 185px 185px;
+        }
+        header{
+          background-color: bisque;
+          color:red;
+          text-align: center;
+          line-height: 184px;
+          font-weight: bold;
+          grid-area:h;
+        }
+        section{
+          background-color: chartreuse;
+          color: darkblue;
+          font-weight: bold;
+          text-align: center;
+          line-height: 184px;
+          grid-area:s;
+
+        }
+        article{
+          background-color: cornflowerblue;
+          color:blue;
+          font-weight: bold;
+          text-align: center;
+          line-height: 184px;
+          grid-area:a;
+        }
+        aside{
+          background-color: deeppink;
+          color: darkorchid;
+          font-weight: bold;
+          text-align: center;
+          line-height: 368px;
+          grid-area:as;
+        }
+        footer{
+          background-color: bisque;
+          color:red;
+          text-align: center;
+          line-height: 184px;
+          font-weight: bold;
+          grid-area:f;
+
+        }
+      </style>
+
+    </head>
+    <body>
+      <header>
+        This is header
+      </header>
+      <section>
+        This is section
+      </section>
+      <article>
+        This is article
+      </article>
+      <aside>
+        This is aside
+      </aside>
+      <footer>
+        This is footer
+      </footer>
+    </body>
+    </html>

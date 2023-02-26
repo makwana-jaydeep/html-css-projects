@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width ,intial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styel3.css">
+        <title>Survey Form</title>
+
+    </head>
+    <body>
+        <div class="heading">
+            <h1>GFG Survey Form</h1>
+        </div>   
+        <div class="form">
+            <form method="POST" action="submit.html">
+              <div class="section">
+                <lable id="lable" for="name">Name</lable></br>
+                <input class="box" id="name" placeholder="Enter your name" type="text" name="name" required ></br>
+                </div>
+                <div class="section">
+                <lable for="age">Age</lable></br>
+                <input class="box" id="age" placeholder="Enter your age" type="number" name="age" required ></br>
+                </div>
+                <div class="section">
+                <lable for="email">Email</lable></br>
+                <input class="box" id="email" placeholder="Enter your email" type="text" name="email" required ></br>
+                </div>
+                <div class="section">
+                <lable for="role">Which option best describes you ?</lable></br>
+                <select  class="box" name="role" id="role"></br>
+                    <option value="student">Student</option>
+                    <option value="intern"> Intern</option>
+                    <option value="professional">Professional</option>
+                    <option value="other">Other</option>
+                </select></br> 
+                </div>
+                <div class="section"> 
+                <lable>Would you recommend GFG to a friend ?</lable></br>
+                
+                <input id="yes" name="recommend" type="radio" checked >
+                <lable for="yes">Yes</lable></br>
+                
+                <input id="no" name="recommend" type="radio"  >
+                <lable for="no">No</lable></br>
+                
+                <input id="maybe" name="recommend" type="radio" >
+                <lable for="maybe">Maybe</lable></br>
+                </div>
+                <div class="section">
+                <lable>Languages or Framework known </lable></br>
+                <input id="java" name="java" type="checkbox">Java</input></br>
+                <input id="c++" name="c++" type="checkbox">C++</input></br>
+                <input id="python" name="python" type="checkbox">Python</input></br>
+                <input id="javascript" name="javascript" type="checkbox">Javascipt</input></br>
+                <input id="react" name="react" type="checkbox">React</input></br>
+                <input id="node" name="node" type="checkbox">Node</input></br>
+                </div>
+                <div class="section">
+                <lable>Any query or suggestions</lable></br>
+                <textarea id="query" name="query" rows="2" cols="71"></textarea></br>
+                </div>
+                <input id="submit" type="submit" value="submit">
+
+
+            </form>
+        </div>
+    </body>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .c1{
+        grid-column: span 2;
+        grid-row:span 2;
+        background: url("./bg1.jpg") no-repeat center;
+        /* grid-column-end: 3; */
+        }
+        .c1:hover{
+            transition:1000ms;
+            background-size: cover;
+            background-position:bottom;
+            /* background-size:center; */
+            background-blend-mode:normal;
+        }
+        /*
+        .c2{
+            grid-area: b;
+        }
+        .c3{
+            grid-area: c;
+        }
+        .c4{
+            grid-area: d;
+        }
+        .c5{
+            grid-area: e;
+        }
+        .c6{
+            grid-area: f;
+        } */
+        section{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap:10px;
+            background-color: lightblue;
+            padding: 10px;
+        }
+        
+        section >div{
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            /* border: 5px solid lightblue; */
+            background-color: blue;
+        }
+     
+    </style>
+</head>
+<body>
+    <section>
+    <div class="c1">1</div>
+    <div class="c2">2</div>
+    <div class="c3">3</div>
+    <div class="c4">4</div>
+    <div class="c5">5</div>
+    <div class="c6">6</div>
+</section>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .flex{
+            background-color:aqua;
+            padding: 0;
+            height:600px;
+            display:flex;
+            /* flex-direction: column; */
+            justify-content: center;
+
+            flex-wrap: wrap;
+            row-gap:0;
+            /* align-items: center; ;- */
+            
+            /* align-content:center; */
+        }
+        .flex >div{
+            border:2px solid purple;
+            background-image: linear-gradient(to right ,white,green);
+            height:150px;
+            width:150px;
+            font-size: 50px;
+            margin: 10px;
+            text-align: center;
+            line-height: 150px;
+        }
+
+    </style>
+</head>
+<body><div class="flex">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    </div>
+</body>
+</html>

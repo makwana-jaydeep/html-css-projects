@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(27, 164, 27);
+    text-align: center;
+}
+.form{
+    background-color: aliceblue;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-align: left;
+}
+.heading{
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 2.5%;
+    padding-bottom: 2%;
+    letter-spacing: 4px;
+}
+.box{
+    box-sizing: content-box;
+    width: 14.5cm;
+    height: .67cm
+}
+.section{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+#submit{
+    background-color:rgb(27, 164, 27);
+    display: block;
+    height:.67cm;
+    width:14.5cm;
+    font-weight: bold;
+    font-size: 130%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top:.7cm;
+    margin-left: 20px;
+}
+#submit:hover{
+ 
+    background-color:aliceblue;
+    color: rgb(27, 164, 27);
+}
